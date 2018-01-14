@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+ <!--================================ patches for mod more furniture ======================================-->
+ 
+	
+	<!--========================= adding facilities =============================-->
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="sd_goodnight.PatchOperationFindMod">
+				<modName>More Furniture [B18]</modName>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "sd_basebed"]/comps/li[@Class = "CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+				<value>
+					<li>Anon2Dresser</li>
+					<li>Anon2EndTable</li>
+					<li>Anon2EndTableLight</li>
+					<li>Anon2RoyalEndTable</li>
+					<li>Anon2RoyalEndTableLight</li>
+				</value>
+			</li>
+			</operations>
+	</Operation>
+	
+	
+
+</Patch>

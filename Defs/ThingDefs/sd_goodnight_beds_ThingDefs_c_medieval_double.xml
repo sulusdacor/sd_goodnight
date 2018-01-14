@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <!--================================ medieval Double bed ======================================-->
+   
+   
+  <ThingDef ParentName="SDGoodnightBedBase">
+    <defName>sd_medieval_double_bed</defName>
+    <label>medieval double bed</label>
+    <description>A comfy bed with fur. Fits two. One of the famous hunters of the Rimworlds came up with this bed design after claiming his 100th Thrumbo kill. In the attemp to display his pride he developed this bed. His ingenuity in bed building spread faster than the words from his big game hunt. His name was forgotten. But after years his beds live on showing the pride of hunters all over the Rimworlds.</description>
+    <graphicData>
+      <texPath>sd_goodnight/medieval/double/sd_goodnight_medieval_double_bed</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>(4,4)</drawSize>
+      <damageData>
+        <rect>(0,0.05,2,1.95)</rect>
+      </damageData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>2000</WorkToBuild>
+	  <Mass>90</Mass>
+      <Beauty>10</Beauty>
+      <BedRestEffectiveness>1.1</BedRestEffectiveness>
+      <Comfort>0.80</Comfort>
+      <ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+    </statBases>
+    <size>(2,2)</size>
+	<stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>50</costStuffCount>
+    <costList>
+		<WoodLog>50</WoodLog>
+    </costList>
+	<researchPrerequisites>
+		<li>sd_goodnight_research_medieval_beds</li>
+	</researchPrerequisites>
+  </ThingDef>
+  
+</Defs>

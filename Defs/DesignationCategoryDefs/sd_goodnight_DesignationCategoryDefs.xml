@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<Defs>
+  <DesignationCategoryDef>
+    <defName>sd_beds</defName>
+    <label>beds</label>
+    <description>Means to sleep for your colonists.</description>
+	<order>13</order>
+    <specialDesignatorClasses>
+      <li>Designator_Cancel</li>
+      <li>Designator_Deconstruct</li>
+	  <li>Designator_Uninstall</li>
+    </specialDesignatorClasses>
+  </DesignationCategoryDef>
+</Defs>

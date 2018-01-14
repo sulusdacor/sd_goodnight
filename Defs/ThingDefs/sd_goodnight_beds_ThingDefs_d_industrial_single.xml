@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--================================ hammock single ======================================-->
+  
+  <ThingDef ParentName="SDGoodnightBedBase">
+    <defName>sd_hammock_single</defName>
+    <label>single hammock</label>
+    <description>A sling made of fabric used for sleeping. Fits one. The hammock is widly used by native tribes all over the Rimworlds. It's use to sleep save above the ground was recognized by explorers. Soon after it quickly became a must have in every ground crews inventory. Although on some planets it proved difficult to sleep in, due to low gravity. This lead to many funny storys of poeple floating away from their hammocks or getting entangled during the sleep.</description>
+    <graphicData>
+      <texPath>sd_goodnight/industrial/single/sd_goodnight_industrial_hammock_single</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3,4)</drawSize>
+      <damageData>
+        <rect>(0,0.05,2,1.95)</rect>
+      </damageData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>1000</WorkToBuild>
+	  <Mass>60</Mass>
+      <Beauty>10</Beauty>
+      <BedRestEffectiveness>1.2</BedRestEffectiveness>
+      <Comfort>0.80</Comfort>
+      <ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+    </statBases>
+    <size>(1,2)</size>
+	<stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>35</costStuffCount>
+    <costList>
+		<WoodLog>15</WoodLog>
+    </costList>
+	<researchPrerequisites>
+		<li>sd_goodnight_research_industrial_beds</li>
+	</researchPrerequisites>
+	<building>
+      <bed_healPerDay>5</bed_healPerDay>
+    </building>
+  </ThingDef>
+    
+   <!--================================ industrial single bed ======================================-->
+  
+  <ThingDef ParentName="SDGoodnightBedBase">
+    <defName>sd_industrial_single_bed</defName>
+    <label>industrial single bed</label>
+    <description>A comfy bed. Fits one. The boom of industrial production led to the need of more qualified workers on the more developed Rimworlds. The constraints of space drove the development of more advanced furniture. As a result this quite simple bed desgin emerged.</description>
+    <graphicData>
+      <texPath>sd_goodnight/industrial/single/sd_goodnight_industrial_single_bed</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3,4)</drawSize>
+      <damageData>
+        <rect>(0,0.05,2,1.95)</rect>
+      </damageData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>1500</WorkToBuild>
+	  <Mass>60</Mass>
+      <Beauty>12</Beauty>
+      <BedRestEffectiveness>1.2</BedRestEffectiveness>
+      <Comfort>0.85</Comfort>
+      <ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+    </statBases>
+    <size>(1,2)</size>
+	<stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>15</costStuffCount>
+    <costList>
+		<Steel>50</Steel>
+		<Component>1</Component>
+    </costList>
+	<researchPrerequisites>
+		<li>sd_goodnight_research_industrial_beds</li>
+	</researchPrerequisites>
+	<building>
+      <bed_healPerDay>5</bed_healPerDay>
+    </building>
+  </ThingDef>
+  
+</Defs>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ResearchProjectDef>
+		<defName>sd_goodnight_research_medieval_beds</defName>
+		<label>medieval beds</label>
+		<description>Not live like a king,but sleep like one.</description>
+		<baseCost>200</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>1</researchViewX>
+		<tab>sd_goodnight_ResearchTab</tab>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>sd_goodnight_research_industrial_beds</defName>
+		<label>industrial beds</label>
+		<description>New means to sleep, more time for your colonists to run wild.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>MicroelectronicsBasics</li>
+			<li>sd_goodnight_research_medieval_beds</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<researchViewX>2</researchViewX>
+		<tab>sd_goodnight_ResearchTab</tab>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>sd_goodnight_research_spacer_beds</defName>
+		<label>space beds</label>
+		<description>Under the offical term of "futuristic bed research" your scientists will discover what sleep really means.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>Cryptosleep</li>
+			<li>sd_goodnight_research_industrial_beds</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<researchViewX>3</researchViewX>
+		<tab>sd_goodnight_ResearchTab</tab>
+	</ResearchProjectDef>
+	
+
+</Defs>

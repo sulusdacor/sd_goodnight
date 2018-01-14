@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+   <!--================================ medieval Single bed ======================================-->
+   
+   
+  <ThingDef ParentName="SDGoodnightBedBase">
+    <defName>sd_medieval_single_bed</defName>
+    <label>medieval single bed</label>
+    <description>A comfy bed with fur. Fits one. One of the famous hunters of the Rimworlds came up with this bed design after claiming his 100th Thrumbo kill. In the attemp to display his pride he developed this bed. His ingenuity in bed building spread faster than the words from his big game hunt. His name was forgotten. But after years his beds live on showing the pride of hunters all over the Rimworlds.</description>
+    <graphicData>
+      <texPath>sd_goodnight/medieval/single/sd_goodnight_medieval_single_bed</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3,4)</drawSize>
+      <damageData>
+        <rect>(0,0.05,1,1.95)</rect>
+      </damageData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>1000</WorkToBuild>
+	  <Mass>50</Mass>
+      <Beauty>5</Beauty>
+      <BedRestEffectiveness>1.1</BedRestEffectiveness>
+      <Comfort>0.80</Comfort>
+      <ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+    </statBases>
+    <size>(1,2)</size>
+	<stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>25</costStuffCount>
+    <costList>
+		<WoodLog>25</WoodLog>
+    </costList>
+	<researchPrerequisites>
+		<li>sd_goodnight_research_medieval_beds</li>
+	</researchPrerequisites>
+  </ThingDef>
+  
+  <!--================================ prison bed single right+top ======================================-->
+  
+  <!-- RT = right + top side in a square room,
+  where the top side is the side textures, couse of perspective,
+  and the right wall side is the front+back textures -->
+  
+  <ThingDef ParentName="SDGoodnightBedBase">
+    <defName>sd_prison_single_bed_RT</defName>
+    <label>prison bed</label>
+    <description>A bed on a wall for your prisoners. Fits only one. No effort was spared to make this bed look like it came out of the darkest deepest dungeon. The least amount of comfort and a hard surface to sleep will let your prisoners stay alert to finer things of their stay. An art well known among the medieval lords of the Rimworlds.</description>
+    <graphicData>
+      <texPath>sd_goodnight/medieval/single/prisonRT/sd_goodnight_medieval_prison_single_bed_RT</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3,4)</drawSize>
+      <damageData>
+        <rect>(0,0.05,2,1.95)</rect>
+      </damageData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>1000</WorkToBuild>
+	  <Mass>50</Mass>
+      <Beauty>2</Beauty>
+      <BedRestEffectiveness>1.1</BedRestEffectiveness>
+      <Comfort>0.50</Comfort>
+      <ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+    </statBases>
+    <size>(1,2)</size>	 
+	<stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>30</costStuffCount>
+    <costList>
+		<Cloth>10</Cloth>
+    </costList>
+	<researchPrerequisites>
+		<li>sd_goodnight_research_medieval_beds</li>
+	</researchPrerequisites>
+  </ThingDef>
+  
+   <!--================================ prison bed single left+bottom ======================================-->
+  
+  <!-- LB = left + bottom side in a square room,
+  where the bottom side is the side textures, couse of perspective,
+  and the left wall side is the front+back textures -->
+  
+  
+  <ThingDef ParentName="SDGoodnightBedBase">
+    <defName>sd_prison_single_bed_LB</defName>
+    <label>prison bed LB</label>
+    <description>A bed on a wall for your prisoners. Fits only one. No effort was spared to make this bed look like it came out of the darkest deepest dungeon. The least amount of comfort and a hard surface to sleep will let your prisoners stay alert to finer things of their stay. An art well known among the medieval lords of the Rimworlds.</description>
+    <graphicData>
+      <texPath>sd_goodnight/medieval/single/prisonLB/sd_goodnight_medieval_prison_single_bed_LB</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3,4)</drawSize>
+      <damageData>
+        <rect>(0,0.05,2,1.95)</rect>
+      </damageData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>1000</WorkToBuild>
+	  <Mass>50</Mass>
+      <Beauty>2</Beauty>
+      <BedRestEffectiveness>1.1</BedRestEffectiveness>
+      <Comfort>0.50</Comfort>
+      <ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+    </statBases>
+    <size>(1,2)</size>	 
+	<stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>30</costStuffCount>
+    <costList>
+		<Cloth>10</Cloth>
+    </costList>
+	<researchPrerequisites>
+		<li>sd_goodnight_research_medieval_beds</li>
+	</researchPrerequisites>
+  </ThingDef>
+  
+</Defs>

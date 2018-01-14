@@ -1,0 +1,92 @@
+personal changelog for mod "sd_goodnight"
+
+- 20/09/2016 (date)
+
+	- updatet ludeon forum link in about file
+	- made beds tradeable, furniture category (exotic goods)
+	- all beds are now in seperate category (sd_beds)
+
+- 14/10/2016
+
+	-  added abstract def building to thingdef, added section marker in xml
+
+- 22/10/2016
+
+	- added facilites defs for medieval+industrial+space tech level in abstrract def to activate
+	- changed abstract base in beds to include linked stuff for easier changing stuff
+
+- 09/11/2016
+
+	- added single beds to all medieval and industrial (not heart bed so far)
+	- lowered costs for all beds
+	- added new textures for all medieval and industrial beds (not heart bed so far)
+	- changed def names + texture folder structure to better identify single+double beds
+
+- 14/11/2016
+	
+	- added multi texture for cryo double bed + cryo single bed
+	- moved most xml lines into abstract for beds
+	- looked over hp values (medieval 200, industrial 250, space 300), single beds -50hp
+
+- 15/11/2016
+
+	- added first draft multi texture for space double bed + single bed
+
+- 17/11/2016
+
+	- added new texture for space double + single bed
+
+- 18/11/2016
+
+	- cleaned up texture for space single bed side
+	- added texture multi for heartshaped bed double
+	- added vanilla designator uninstall in bed category
+	- added stuff to the space+cryo bed class (half the steel can be metallic stuff)
+
+- 22/12/2016
+
+	- updated to a16, added mass
+	- moved hammock to industrial for eventual future additions of more medieval looking hammock and a futuristic one
+	- removed tags in research (means starting at any the techlevel, you will have to reseach the beds)
+	- split thingdef xml in various for better overview, added letter for order in designation category
+	- changed some def names, texture folder structure, texture names, filestructure to allow better overview + potential updates in future
+	- various def names, texture names from space to spacer
+	- research def names from bed to beds
+	- healticker is 8,9,10 for medieval,industrial,spacer (vanilla royal has 8, hospital 12)
+	- mass is 50,60,70 for singles and 90,100,110 for double beds (50 and 90 is vanilla value for normal single bed and royal bed)
+
+	- renamed space to spacer in medicaddons defnames additon comment in base xml
+
+- 25/12/2016
+
+	- updated defnames of more furn mod in comment section of base xml
+
+- 06/01/2017
+
+	- updated the worktobuild xml tag, used old worktomake one,resulted in instant building
+
+- 30/05/2016
+
+	- update to a17
+	- added roomidentifier for beds, cleaned up the xml (removed some notations since new patch options allow smother compatibility patches)
+	- adjusted heal per day to 3 (value of all other beds in vanilla game) for medieval, 5 industrial, 7 spacer (vanilla hospital has 9)
+
+- 29/12/2017
+
+	- update to b18
+	- fixed roots to <Defs>
+	- added research tab
+	- fixed case sensitive xml tags
+	- fixed wrong heal per day for medieval bed to basic 3
+	- added new linkable endtable+dresser
+	- spacer beds replaced component cost with advanced components: (slight wealth/cost incr)
+		single: 3 comp to 1 adv
+		double: 5 comp to 2 adv
+
+- 06/01/2017
+
+	- added modloadedchecker to include patches in main mod
+	- added compatibility patches over pacthoptions, so far for medicaddons and more furniture
+	(patching both sides or additional xml seems to cause non errors)
+		-> makes load order not matter form what i tested
+	- so far supports: CTS, medicaddons, more furniture

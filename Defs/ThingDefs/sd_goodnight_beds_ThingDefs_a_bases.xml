@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ <!--================================ Abstract bases ======================================-->
+
+  <ThingDef Name="SDBuildingBase" Abstract="True">
+    <category>Building</category>
+    <thingClass>Building</thingClass>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <filthLeaving>BuildingRubble</filthLeaving>
+		<statBases>
+			<SellPriceFactor>0.70</SellPriceFactor>
+		</statBases>
+  </ThingDef>
+
+  <ThingDef Name="SDGoodnightBedBase" ParentName="SDBuildingBase" Abstract="True">
+	<defName>sd_basebed</defName>
+    <thingClass>Building_Bed</thingClass>
+    <comps>
+		<li Class="CompProperties_AffectedByFacilities">
+			<linkableFacilities>
+				<li>VitalsMonitor</li> <!-- vanilla vitals monitor -->
+				<li>EndTable</li>
+				<li>Dresser</li>
+			</linkableFacilities>
+		</li>
+		<li>
+			<compClass>CompQuality</compClass>
+		</li>
+		<li Class="CompProperties_Art">
+			<nameMaker>ArtName_Furniture</nameMaker>
+			<descriptionMaker>ArtDescription_Furniture</descriptionMaker>
+			<minQualityForArtistic>Excellent</minQualityForArtistic>
+		</li>
+		<li Class="CompProperties_RoomIdentifier">
+			<roomStat>Impressiveness</roomStat>
+		</li>
+    </comps>
+	<placeWorkers>
+		<li>PlaceWorker_ShowFacilitiesConnections</li>
+	</placeWorkers>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+    <minifiedDef>MinifiedFurniture</minifiedDef>
+	<rotatable>true</rotatable>
+	<tradeTags>
+      <li>Furniture</li>
+    </tradeTags>
+	<altitudeLayer>Building</altitudeLayer>
+	<designationCategory>sd_beds</designationCategory>
+	<building>
+      <bed_showSleeperBody>False</bed_showSleeperBody>
+      <bed_healPerDay>3</bed_healPerDay>
+    </building>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <fillPercent>0.4</fillPercent>
+    <pathCost>60</pathCost>
+    <leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
+    <staticSunShadowHeight>0.17</staticSunShadowHeight>
+    <castEdgeShadows>True</castEdgeShadows>
+    <passability>PassThroughOnly</passability>
+    <drawGUIOverlay>True</drawGUIOverlay>
+  </ThingDef>
+  
+</Defs>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+ <!--================================ patches for goodnight beds ======================================-->
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="sd_goodnight.PatchOperationFindMod">
+				<modName>CTS - Complete Tech Solutions</modName>
+			</li>
+			<li Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "sd_basebed"]/comps/li[@Class = "CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+		<value>
+			<li>CTSAdvancedVitalsMonitor</li>
+		</value>
+	</li>
+			
+			</operations>
+	</Operation>
+  
+</Patch>

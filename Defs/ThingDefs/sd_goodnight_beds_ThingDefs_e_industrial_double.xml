@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <!--================================ hammock double ======================================-->
+  
+  <ThingDef ParentName="SDGoodnightBedBase">
+    <defName>sd_hammock_double</defName>
+    <label>double hammock</label>
+    <description>A sling made of fabric used for sleeping. Fits two. The hammock is widly used by native tribes all over the Rimworlds. It's use to sleep save above the ground was recognized by explorers. Soon after it quickly became a must have in every ground crews inventory. Although on some planets it proved difficult to sleep in, due to low gravity. This lead to many funny storys of poeple floating away from their hammocks or getting entangled during the sleep.</description>
+    <graphicData>
+      <texPath>sd_goodnight/industrial/double/sd_goodnight_industrial_hammock_double</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>(4,4)</drawSize>
+      <damageData>
+        <rect>(0,0.05,2,1.95)</rect>
+      </damageData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>2000</WorkToBuild>
+	  <Mass>100</Mass>
+      <Beauty>10</Beauty>
+      <BedRestEffectiveness>1.2</BedRestEffectiveness>
+      <Comfort>0.80</Comfort>
+      <ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+    </statBases>
+    <size>(2,2)</size>
+	<stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>75</costStuffCount>
+    <costList>
+		<WoodLog>25</WoodLog>
+    </costList>
+	<researchPrerequisites>
+		<li>sd_goodnight_research_industrial_beds</li>
+	</researchPrerequisites>
+	<building>
+      <bed_healPerDay>5</bed_healPerDay>
+    </building>
+  </ThingDef>
+    
+    <!--================================ industrial Double bed ======================================-->
+  
+  <ThingDef ParentName="SDGoodnightBedBase">
+    <defName>sd_industrial_double_bed</defName>
+    <label>industrial double bed</label>
+    <description>A comfy bed. Fits two. The boom of industrial production led to the need of more qualified workers on the more developed Rimworlds. The constraints of space drove the development of more advanced furniture. As a result this quite simple bed desgin emerged.</description>
+    <graphicData>
+      <texPath>sd_goodnight/industrial/double/sd_goodnight_industrial_double_bed</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>(4,4)</drawSize>
+      <damageData>
+        <rect>(0,0.05,2,1.95)</rect>
+      </damageData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>3000</WorkToBuild>
+	  <Mass>100</Mass>
+      <Beauty>12</Beauty>
+      <BedRestEffectiveness>1.2</BedRestEffectiveness>
+      <Comfort>0.85</Comfort>
+      <ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+    </statBases>
+    <size>(2,2)</size>
+	<stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>25</costStuffCount>
+    <costList>
+		<Steel>100</Steel>
+		<Component>2</Component>
+    </costList>
+	<researchPrerequisites>
+		<li>sd_goodnight_research_industrial_beds</li>
+	</researchPrerequisites>
+	<building>
+      <bed_healPerDay>5</bed_healPerDay>
+    </building>
+  </ThingDef>
+  
+    <!--================================ heart double bed ======================================-->
+  
+  <ThingDef ParentName="SDGoodnightBedBase">
+    <defName>sd_heart_double_bed</defName>
+    <label>lover's double bed</label>
+    <description>A comfy bed for your lovers. Fits two. The Model "heart-3000" is very popular in the more develpoed Rimworlds. It's mostly bought by couples and owners of certain establishments. Due to the Rimworlds not being the safest place and in the face of a possible sudden death the delieveries to the colonies in the Rimworlds have doubled over the years. Followed by a "mysterious" increase in population on these planets.</description>
+    <graphicData>
+      <texPath>sd_goodnight/industrial/double/sd_goodnight_industrial_heart_double_bed</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>(4,4)</drawSize>
+      <damageData>
+        <rect>(0,0.05,2,1.95)</rect>
+      </damageData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>3000</WorkToBuild>
+	  <Mass>100</Mass>
+      <Beauty>12</Beauty>
+      <BedRestEffectiveness>1.2</BedRestEffectiveness>
+      <Comfort>0.85</Comfort>
+      <ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+    </statBases>
+    <size>(2,2)</size>
+	<stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>25</costStuffCount>
+    <costList>
+		<Steel>100</Steel>
+		<Component>2</Component>
+    </costList>
+	<researchPrerequisites>
+		<li>sd_goodnight_research_industrial_beds</li>
+	</researchPrerequisites>
+	<building>
+      <bed_healPerDay>5</bed_healPerDay>
+    </building>
+  </ThingDef>
+  
+</Defs>
