@@ -76,10 +76,6 @@ personal changelog for mod "sd_goodnight"
 	- update to b18
 	- fixed roots to <Defs>
 	- added research tab
-
-- 15/01/2018
-
-	- added modsync file
 	- fixed case sensitive xml tags
 	- fixed wrong heal per day for medieval bed to basic 3
 	- added new linkable endtable+dresser
@@ -94,3 +90,7 @@ personal changelog for mod "sd_goodnight"
 	(patching both sides or additional xml seems to cause non errors)
 		-> makes load order not matter form what i tested
 	- so far supports: CTS, medicaddons, more furniture
+
+- 15/01/2018
+
+	- added modsync file
