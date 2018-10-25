@@ -39,6 +39,7 @@
 	<researchPrerequisites>
 		<li>sd_goodnight_research_medieval_beds</li>
 	</researchPrerequisites>
+	<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
   </ThingDef>
   
   <!--================================ prison bed single right+top ======================================-->
@@ -83,6 +84,7 @@
 	<researchPrerequisites>
 		<li>sd_goodnight_research_medieval_beds</li>
 	</researchPrerequisites>
+	<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
   </ThingDef>
   
    <!--================================ prison bed single left+bottom ======================================-->
@@ -128,6 +130,7 @@
 	<researchPrerequisites>
 		<li>sd_goodnight_research_medieval_beds</li>
 	</researchPrerequisites>
+	<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
   </ThingDef>
   
 </Defs>

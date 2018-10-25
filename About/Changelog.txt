@@ -94,3 +94,12 @@ personal changelog for mod "sd_goodnight"
 - 15/01/2018
 
 	- added modsync file
+
+- 25/10/2018
+
+	- rimworld 1.0 update
+	- assemblies update
+	- xml fixes/updates
+	- textures renamed for new multi endings (north,south,east)
+	- more furniture mod name updated for patches
+	- added basic constr skill requirements (4,8,12 for medieval,industr, spacer)

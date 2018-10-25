@@ -41,6 +41,7 @@
 	<building>
       <bed_healPerDay>5</bed_healPerDay>
     </building>
+	<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
   </ThingDef>
     
    <!--================================ industrial single bed ======================================-->
@@ -76,7 +77,7 @@
     <costStuffCount>15</costStuffCount>
     <costList>
 		<Steel>50</Steel>
-		<Component>1</Component>
+		<ComponentIndustrial>1</ComponentIndustrial>
     </costList>
 	<researchPrerequisites>
 		<li>sd_goodnight_research_industrial_beds</li>
@@ -84,6 +85,7 @@
 	<building>
       <bed_healPerDay>5</bed_healPerDay>
     </building>
+	<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
   </ThingDef>
   
 </Defs>

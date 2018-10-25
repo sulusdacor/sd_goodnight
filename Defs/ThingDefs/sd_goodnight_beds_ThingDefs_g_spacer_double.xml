@@ -35,7 +35,7 @@
 		<Steel>50</Steel>
 		<Plasteel>5</Plasteel>
 		<Cloth>25</Cloth>
-		<AdvancedComponent>2</AdvancedComponent>
+		<ComponentSpacer>2</ComponentSpacer>
     </costList>
 	<researchPrerequisites>
 		<li>sd_goodnight_research_spacer_beds</li>
@@ -43,6 +43,7 @@
 	<building>
       <bed_healPerDay>7</bed_healPerDay>
     </building>
+	<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
   </ThingDef>
     
   <!--================================ cryo double bed ======================================-->
@@ -78,8 +79,8 @@
 	<costList>
 		<Steel>50</Steel>
 		<Plasteel>10</Plasteel>
-		<GlitterworldMedicine>1</GlitterworldMedicine>
-		<AdvancedComponent>2</AdvancedComponent>
+		<MedicineUltratech>1</MedicineUltratech>
+		<ComponentSpacer>2</ComponentSpacer>
     </costList>
 	<researchPrerequisites>
 		<li>sd_goodnight_research_spacer_beds</li>
@@ -87,6 +88,7 @@
 	<building>
       <bed_healPerDay>7</bed_healPerDay>
     </building>
+	<constructionSkillPrerequisite>12</constructionSkillPrerequisite>
   </ThingDef>
   
 </Defs>

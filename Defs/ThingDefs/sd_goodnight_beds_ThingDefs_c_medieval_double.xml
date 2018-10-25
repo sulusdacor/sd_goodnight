@@ -39,6 +39,7 @@
 	<researchPrerequisites>
 		<li>sd_goodnight_research_medieval_beds</li>
 	</researchPrerequisites>
+	<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
   </ThingDef>
   
 </Defs>

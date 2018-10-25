@@ -6,13 +6,13 @@
   <ThingDef Name="SDBuildingBase" Abstract="True">
     <category>Building</category>
     <thingClass>Building</thingClass>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <selectable>true</selectable>
     <drawerType>MapMeshAndRealTime</drawerType>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <repairEffect>Repair</repairEffect>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-    <filthLeaving>BuildingRubble</filthLeaving>
+    <filthLeaving>Filth_RubbleBuilding</filthLeaving>
 		<statBases>
 			<SellPriceFactor>0.70</SellPriceFactor>
 		</statBases>
@@ -33,7 +33,7 @@
 			<compClass>CompQuality</compClass>
 		</li>
 		<li Class="CompProperties_Art">
-			<nameMaker>ArtName_Furniture</nameMaker>
+			<nameMaker>NamerArtFurniture</nameMaker>
 			<descriptionMaker>ArtDescription_Furniture</descriptionMaker>
 			<minQualityForArtistic>Excellent</minQualityForArtistic>
 		</li>
@@ -47,7 +47,10 @@
     <inspectorTabs>
       <li>ITab_Art</li>
     </inspectorTabs>
-    <minifiedDef>MinifiedFurniture</minifiedDef>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsFurniture</li>
+    </thingCategories>
 	<rotatable>true</rotatable>
 	<tradeTags>
       <li>Furniture</li>

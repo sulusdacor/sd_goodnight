@@ -10,7 +10,7 @@
 		<success>Always</success>
 		<operations>
 			<li Class="sd_goodnight.PatchOperationFindMod">
-				<modName>More Furniture [B18]</modName>
+				<modName>More Furniture [1.0]</modName>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName = "sd_basebed"]/comps/li[@Class = "CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
