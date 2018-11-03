@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<sd_medieval_single_bed.label>cama medieval</sd_medieval_single_bed.label>
+	<sd_medieval_single_bed.description>Una simple y cómoda cama con trapos. Un famoso cazador ideó este diseño después de reclamar su centésima muerte de Thrumbo. Su ingenio en la construcción de camas se extendió más rápido que las palabras de su hazaña, pero su nombre fue olvidado.</sd_medieval_single_bed.description>
+
+	<sd_prison_single_bed_RT.label>cama para prisioneros</sd_prison_single_bed_RT.label>
+	<sd_prison_single_bed_RT.description>Una cama para tus prisioneros. No se escatimó ningún esfuerzo para hacer que esta cama parezca que salió de la mazmorra más profunda y oscura. La menor cantidad de comodidad y una superficie dura para dormir permitirán que sus prisioneros estén alertas a las cosas más finas de su estadía.</sd_prison_single_bed_RT.description>
+
+	<sd_prison_single_bed_LB.label>cama para prisioneros (invertida)</sd_prison_single_bed_LB.label>
+	<sd_prison_single_bed_LB.description>Una cama para tus prisioneros. No se escatimó ningún esfuerzo para hacer que esta cama parezca que salió de la mazmorra más profunda y oscura. La menor cantidad de comodidad y una superficie dura para dormir permitirán que sus prisioneros estén alertas a las cosas más finas de su estadía.</sd_prison_single_bed_LB.description>
+
+</LanguageData>

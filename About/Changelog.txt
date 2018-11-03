@@ -103,3 +103,8 @@ personal changelog for mod "sd_goodnight"
 	- textures renamed for new multi endings (north,south,east)
 	- more furniture mod name updated for patches
 	- added basic constr skill requirements (4,8,12 for medieval,industr, spacer)
+
+- 03/11/2018
+
+	- added spanish and spanislatin by canaleta
+	- german by sulusdacor

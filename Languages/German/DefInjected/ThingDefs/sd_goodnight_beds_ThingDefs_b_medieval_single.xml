@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<sd_medieval_single_bed.label>mittelalterliches Bett</sd_medieval_single_bed.label>
+	<sd_medieval_single_bed.description>Ein bequemes Bett aus Pelz. Ein berühmter Jäger der Randwelten erfand dieses Bettdesign, nachdem er seinen 100sten Thrumbo erlegte. Im Versuch seinen Stolz auszustellen entstand dieses Bett. Die Kunde von seinem Erfindungsreichtum im Bettenbau verbreitet sich schneller als sein Erfolg als Großwildjäger. Sein Name wurde vergessen. Aber sein Erbe lebt weiter in Form seiner Betten, die den Stolz der Jäger überall auf den Randwelten zur Schau stellen.</sd_medieval_single_bed.description>
+
+	<sd_prison_single_bed_RT.label>Gefangenenpritsche</sd_prison_single_bed_RT.label>
+	<sd_prison_single_bed_RT.description>Ein an der wand hängendes Bett für Gefangene. Nur Platz für eine Person. Keine Mühen wurden gescheut um dieses Bett aussehen zu lassen, als ob es aus dem tiefsten Verlies käme. Der geringe Komfort und ein harter Untergrund zum Schlafen werden deine Gefangen allzeit Aufmerksamkeit für die wichtigen Dingen ihres Aufenthaltes haben lassen. Eine wohlbekannte Kunst unter den mittelalterlischen Herrschern der Randwelten.</sd_prison_single_bed_RT.description>
+
+	<sd_prison_single_bed_LB.label>Gefangenenpritsche (andere Richtung)</sd_prison_single_bed_LB.label>
+	<sd_prison_single_bed_LB.description>Ein an der wand hängendes Bett für Gefangene. Nur Platz für eine Person. Keine Mühen wurden gescheut um dieses Bett aussehen zu lassen, als ob es aus dem tiefsten Verlies käme. Der geringe Komfort und ein harter Untergrund zum Schlafen werden deine Gefangen allzeit Aufmerksamkeit für die wichtigen Dingen ihres Aufenthaltes haben lassen. Eine wohlbekannte Kunst unter den mittelalterlischen Herrschern der Randwelten.</sd_prison_single_bed_LB.description>
+
+</LanguageData>

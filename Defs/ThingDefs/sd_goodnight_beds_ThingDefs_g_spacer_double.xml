@@ -51,7 +51,7 @@
   <ThingDef ParentName="SDGoodnightBedBase">
     <defName>sd_cryo_double_bed</defName>
     <label>crypto double bed</label>
-    <description>A comfy crypto bed. Fits two. During the research of cryptosleep the possibilty of a short sleeping cycle based on this technology emerged. However most people still refuse to use these beds in fear of never waking up or losing several years by accident. This lead to several Rimworld legends although all exposed by scientists as fictional storys many people fear the device.</description>
+    <description>A comfy crypto bed. Fits two. During the research of cryptosleep the possibilty of a short sleeping cycle based on this technology emerged. However most people still refuse to use these beds in fear of never waking up or losing several years by accident. This lead to several Rimworld legends. Although all exposed by scientists as fictional storys many people fear the device.</description>
     <graphicData>
       <texPath>sd_goodnight/spacer/double/sd_goodnight_spacer_cryo_double_bed</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
